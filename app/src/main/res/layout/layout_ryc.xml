@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="150dp"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:id="@+id/itemRyc"
+    android:background="@drawable/broder_layout03"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="95dp"
+        android:src="@drawable/fiilm_01"
+        android:padding="5dp"
+        android:layout_height="155dp"/>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="match_parent">
+
+    <TextView android:layout_height="wrap_content"
+        android:text="Game lalela"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"/>
+     <TextView android:layout_height="wrap_content"
+        android:text="March 21 2003"
+         android:paddingStart="50dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"/>
+     
+     <TextView
+         android:layout_width="match_parent"
+         android:textStyle="bold"
+         android:ellipsize="end"
+         android:maxLines="2"
+         android:id="@+id/tv_detail"
+         android:lineSpacingExtra="10dp"
+         android:textSize="22dp"
+         android:text="Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world."
+         android:layout_height="match_parent"/>
+ </LinearLayout>
+
+</LinearLayout>

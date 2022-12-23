@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="55dp"
+    android:background="@drawable/broder_layout03"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        android:layout_height="55dp"
+        app:tint="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Sheep see"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>
